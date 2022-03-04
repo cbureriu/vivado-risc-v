@@ -13,9 +13,9 @@ git clone https://github.com/cbureriu/vivado-risc-v
 make update-submodules
 ```
 ## CPU Configurations
-```
+
 https://github.com/cbureriu/vivado-risc-v/blob/master/src/main/scala/rocket.scala
-```
+
 ## build FPGA bitstream
 ```
 make CONFIG=rocket64b2 BOARD=nexys-video vivado-gui
